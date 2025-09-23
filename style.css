@@ -197,6 +197,49 @@ header {
   font-size: 1.1rem;
   color: #5d4037;
 }
+/* Experience Section */
+.experience-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-list li {
+  background: #fffaf6;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-list li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.experience-list h3 {
+  color: #5d4037;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-list p {
+  font-size: 1.05rem;
+  color: #5d4037;
+  margin: 0.3rem 0;
+}
+
+.experience-list p strong {
+  color: #a0522d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-list li {
+    padding: 1rem 1.2rem;
+  }
+}
 
 /* Contact */
 #contact a {
