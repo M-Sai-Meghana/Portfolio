@@ -97,6 +97,22 @@ header {
 .profile-pic:hover {
   transform: scale(1.08);
 }
+.btn-cv {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #a0522d;   /* deep brown */
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn-cv:hover {
+  background: #5d4037;  /* lighter brown */
+}
+
 
 /* Sections */
 .section {
